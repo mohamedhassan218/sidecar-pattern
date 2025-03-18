@@ -27,7 +27,7 @@ When a request is made to the main service, it forwards a log message to the sid
 - Running the Project
   1. Clone the Repository:
         ```bash
-        git clone <repo-url>
+        git clone git@github.com:mohamedhassan218/sidecar-pattern.git
         cd sidecar-pattern
         ```
   2. Download dependencies for each service:
