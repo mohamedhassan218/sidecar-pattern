@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  main:
+    build: ./main-service
+    ports:
+      - "3000:3000"
+    depends_on:
+      - sidecar
+
+  sidecar:
+    build: ./sidecar-service
